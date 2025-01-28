@@ -4,7 +4,7 @@ public class nextprime
 {
 	public static void main(String[] args) {
 		int count=0;
-		Scanner scan = new Scanner (System.in);
+		try(Scanner scan = new Scanner (System.in)){
 		int n=scan.nextInt();
 		while(count<5){
 		    n++;
@@ -14,7 +14,7 @@ public class nextprime
 		    }
 		    
 		}
-		scan.close();
+	}
 	}
 	public static boolean is(int n){
 	    if (n <=1) return false;
