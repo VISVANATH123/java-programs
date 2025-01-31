@@ -1,3 +1,4 @@
+package loopjava;
 import java.util.*;
 public class series {
     public static void main(String args[]){

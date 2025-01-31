@@ -1,3 +1,4 @@
+package loopjava;
 import java.util.*;
 public class automorphic {
     public static void main(String args[]){
