@@ -1,6 +1,5 @@
-package loopjava;
 import java.util.*;
-public class practice {
+public class pyramidstar {
     public static void main(String args[]){
         try(Scanner scan=new Scanner(System.in)){
             int n=scan.nextInt();
@@ -11,7 +10,7 @@ public class practice {
                 for(int j=1;j<=i;j++){
                     System.out.print("* ");
                 }
-               
+                
                 System.out.println();
             }
             for(int i=n-1;i>=0;i--){
@@ -21,11 +20,9 @@ public class practice {
                 for(int j=1;j<=i;j++){
                     System.out.print("* ");
                 }
-               
                 System.out.println();
             }
 
+        }
     }
-
-    }
-} 
+}

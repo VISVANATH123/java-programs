@@ -1,4 +1,3 @@
-package loopjava;
 import java.util.*;
 public class hollowsquare {
     public static void main(String args[]){

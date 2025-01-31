@@ -1,4 +1,3 @@
-package loopjava;
 import java.util.*;
 public class palintriangle {
     public static void main(String args[]){

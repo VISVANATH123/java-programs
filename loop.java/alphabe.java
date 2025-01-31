@@ -1,9 +1,11 @@
-package loopjava;
+
+
 import java.util.*;
 
 public class alphabe {
     public static void main(String args[]) {
         try (Scanner scan = new Scanner(System.in)) {
+            System.out.print("Enter the number of rows: ");
             int n = scan.nextInt();
             int a = 65;
             for (int i = 1; i <= n; i++) {

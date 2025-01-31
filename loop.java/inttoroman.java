@@ -1,4 +1,3 @@
-package loopjava;
 import java.util.Scanner;
 
 public class inttoroman {
